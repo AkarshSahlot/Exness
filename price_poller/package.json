@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^6.15.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "@types/pg": "^8.15.5",
+    "@types/redis": "^4.0.11",
+    "@types/ws": "^8.18.1",
+    "pg": "^8.16.3",
+    "redis": "^5.8.2",
+    "ws": "^8.18.3"
+  }
+}
