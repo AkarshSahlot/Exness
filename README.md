@@ -1,0 +1,1 @@
+A dockerized Exness (CFD trading platform ) with leverage, take-profit, stop-loss, and a free $5000 demo balance per user. Deployed on GCP VM with Redis Pub/Sub for real-time prices, TimescaleDB for historical data, Binance stream integration, WebSockets for clients, and GitHub CI/CD.
